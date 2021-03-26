@@ -9,15 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/barbatoz0220/test_wad.git"
+    "url": "git+https://github.com/HelloImTri/test-wad-proj.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/barbatoz0220/test_wad/issues"
+    "url": "https://github.com/HelloImTri/test-wad-proj/issues"
   },
-  "homepage": "https://github.com/barbatoz0220/test_wad#readme",
+  "homepage": "https://github.com/HelloImTri/test-wad-proj#readme",
   "engines": {
-    "node": "12.18.3"
+    "node": "12.18.3",
+    "npm": "6.14.8"
   }
 }
