@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "(cd Client && npm install) && (cd Server && npm install)",
+    "install": "cd Server && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd Server && node ./bin/www"
   },
