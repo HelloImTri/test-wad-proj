@@ -3,18 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "concurrently": "^4.0.1",
-    "rimraf": "^2.6.2"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "concurrently \"cd Client && npm run build\" \"cd Server && npm run build\"",
-    "clean": "concurrently \"rimraf node_modules\" \"cd Client && rimraf node_modules build\" \"cd Server && rimraf node_modules build\"",
-    "heroku-postbuild": "npm run build",
-    "install": "(cd Client && npm install) && (cd Server && npm install)",
-    "start": "concurrently \"cd Client && PORT=3000 npm run start\" \"cd Server && PORT=3001 npm run start\"",
-    "start:prod": "cd Server && npm run start:prod"
+    "start": "cd Server && node ./bin/www"
   },
   "repository": {
     "type": "git",
