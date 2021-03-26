@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd Server && node ./bin/www"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/barbatoz0220/test_wad/issues"
   },
-  "homepage": "https://github.com/barbatoz0220/test_wad#readme"
+  "homepage": "https://github.com/barbatoz0220/test_wad#readme",
+  "engines": {
+    "node": "12.18.3"
+  }
 }
